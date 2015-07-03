@@ -1,0 +1,32 @@
+svg {
+	background: #eee;
+}
+
+.sphere {
+	fill: #fff;
+}
+
+.land {
+	fill: #ddc;
+}
+
+.boundary {
+	fill: none;
+	stroke: #fff;
+	stroke-linejoin: round;
+	stroke-linecap: round;
+	vector-effect: non-scaling-stroke;
+}
+
+.overlay {
+	fill: none;
+	pointer-events: all;
+}
+
+.subunit-label {
+  fill: #777;
+  fill-opacity: .5;
+  font-size: 20px;
+  font-weight: 300;
+  text-anchor: middle;
+}
